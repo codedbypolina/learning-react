@@ -1,3 +1,38 @@
 * {
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  background-color: #21222a;
+  padding: 20px;
+  align-items: center;
+}
+
+nav > h3 {
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: bold;
+  color: #61dafb;
+  font-size: 35px;
+}
+
+h4 {
+  color: #deebf8;
+  font-size: 20px;
+  font-weight: semi-bold;
+}
+
+img {
+  height: 45px;
+  padding-right: 10px;
 }
