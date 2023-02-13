@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  background-color: #282d35;
 }
 
 /* NAVBAR */
@@ -32,7 +33,42 @@ h4 {
   font-weight: semi-bold;
 }
 
-img {
+.small_logo {
   height: 45px;
   padding-right: 10px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  margin: 40px;
+  margin-right: 0px;
+  color: white;
+  background-image: url(../src/images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 22px;
+  line-height: 50px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #61dafb;
+  font-size: 40px;
+  display: inline-block;
+  margin-left: -1em;
+  margin-right: 10px;
 }
